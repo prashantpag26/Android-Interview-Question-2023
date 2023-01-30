@@ -104,8 +104,6 @@ Android interview questions for junior and seniors.
         > var str: String? = null  
         > var str2: String? = "May be declare nullable string"  
         > var len1:  Int = if (str != null) str.length else -1  **Not ~~Elvis Implemented~~**   
-        > var len2:  Int = if (str2 != null) str2.length else -1  **Not ~~Elvis Implemented~~**   
-        > var len1:  Int = str?.length ?: -1    **Elvis Implemented**   
         > var len2:  Int = str2?.length ?: -1   **Elvis Implemented**    
     - **QUESTION:** What’s a const? How does it differ from a val?
       - By default val properties are set at runtime. Adding a const modifier on a val would make a compile-time constant. A const cannot be used with a var or on its own. A const is not applicable on a local variable.
